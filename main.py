@@ -30,12 +30,12 @@ Recetario.guarda_receta(sexta_receta)
 Recetario.guarda_receta(septima_receta)
 Recetario.guarda_receta(octava_receta)
 
-Recetario.listar()
+# Recetario.listar()
 
 
-print(Recetario.buscar_receta("Bikino"))
+# print(Recetario.buscar_receta("Bikino"))
 
-print(Recetario)
+# print(Recetario)
 
 print(Recetario.listar_tipo("entrante"))
 

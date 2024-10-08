@@ -40,10 +40,11 @@ class Libro:
         '''
         Método para listar las recetas del libro por tipo de receta
         '''
-        for listareceta in self.recetas.values():
-            for receta in listareceta:
-                if receta.tipo ==  tipo:
+        for tiporecetas, listareceta in self.recetas.items():
+            if tiporecetas ==  tipo:
+                for receta in listareceta:
                     print (receta)
+            return
         print(f"No existe la cateogria: {tipo}")
                 
         
