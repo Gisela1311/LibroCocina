@@ -1,13 +1,12 @@
 from receta import Receta
 from libro_cocina import Libro
-from datetime import datetime
-
-fc_string = "4 Octubre, 2024"
-fa_string = "6 Octubre, 2024"
 
 
 
-Recetario = Libro("Recetario", fc_string, fa_string)
+Recetario = Libro("Recetario")
+
+for i in  range(100000):
+    pass
 
 
 primera_receta = Receta("Tortilla de patatas", 3, ["huevo", "patata", "cebolla"], "Pelar las patatas. Cortar las patatas y las cebollas. Freír todo en abundante aceite. Batir los huevos. Escurrir las patatas y las cebollas y mezclarlo con el huevo. A continuación, verter la mezcla a la sartén y cocinar por ambos lados", "entrante", 45)
@@ -31,10 +30,13 @@ Recetario.guarda_receta(sexta_receta)
 Recetario.guarda_receta(septima_receta)
 Recetario.guarda_receta(octava_receta)
 
-# Recetario.listar_tipo()
+Recetario.listar()
 
 
 print(Recetario.buscar_receta("Bikino"))
 
+print(Recetario)
+
+print(Recetario.listar_tipo("entrante"))
 
 
