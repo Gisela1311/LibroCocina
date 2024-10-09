@@ -13,7 +13,7 @@ class Libro:
 
     def __str__(self):
         '''
-        Esta será la información qie se mostrará del libro
+        Esta será la información que se mostrará del libro
         '''
         return f"{self.nombre}, {self.fecha_creacion}, {self.fecha_actualización}"
     
@@ -45,7 +45,7 @@ class Libro:
                 for receta in listareceta:
                     print (receta)
             return
-        print(f"No existe la cateogria: {tipo}")
+        print(f"No existe la categoria: {tipo}")
                 
         
 
