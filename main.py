@@ -19,7 +19,7 @@ septima_receta = Receta("Pastel de queso", 3, ["galletas", "mantequilla", "crema
 octava_receta = Receta("Musico", 1, ["moscatell", "almendras", "nueces", "avellanas", "pasas"], "Servir el moscatell en una copa pequeña o un vasito de chupito. En un plato pequeño pondremos el resto de ingredientes. Servir conjuntamente.", "postres", 5)
 novena_receta = Receta("Vino", 1, ["vino tinto"], "Verter parte del contenido de la botella en una copa", "bebida", 2)
 
-Recetario.guarda_receta(novena_receta)
+# Recetario.guarda_receta(novena_receta)
 
 Recetario.guarda_receta(primera_receta)
 Recetario.guarda_receta(segunda_receta)
@@ -37,6 +37,6 @@ Recetario.guarda_receta(octava_receta)
 
 # print(Recetario)
 
-print(Recetario.listar_tipo("entrante"))
+print(Recetario.listar_tipo("postres"))
 
 
